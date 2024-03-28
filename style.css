@@ -1,0 +1,185 @@
+@font-face {
+    font-family: gilroy;
+    src: url(assets/font/Gilroy-Medium.e7e7c091\ \(1\).ttf);
+  }
+@font-face {
+    font-family: mizi;
+    src: url(assets/font/Mazius-Extraitalic.121a71a7\ \(1\).otf);
+  }
+  @font-face{
+    font-family: head;
+    src: url(assets/font/Heading-Now-Variable.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+
+    width: 100%;
+    background: #000;
+    color: white;
+    overflow-x: hidden;
+}
+
+
+
+.nav-animation{
+    height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 99;
+}
+
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.nav-bottom{
+    padding: 0 2rem;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+}
+
+.nav-bottom .box{
+    height: 200px;
+    width: 300px;
+    /* background:red; */
+    display: flex;
+
+}
+
+.nav-bottom .box h1{
+    font-size: 11vw;
+    text-align: center;
+    
+}
+
+.nav-bottom .box:nth-child(3) h1{
+    font-family: mizi;
+}
+
+.star{
+    position: relative;
+   
+}
+
+.star1{
+   position: absolute;
+   left: 500px;
+   opacity: 0;
+   z-index: 1;
+   /* background:red; */
+}
+.star2{
+   position: absolute;
+   left: 500px;
+   opacity: 0;
+   z-index: 2;
+}.star3{
+   position: absolute;
+   left: 500px;
+   opacity: 0;
+   z-index: 3;
+}
+.star4{
+   position: absolute;
+   left: 500px;
+   opacity: 0;
+   z-index: 4;
+}
+
+
+.cursor{
+    height: 100px;
+    position: absolute;
+    top: 5%;
+    z-index: 98;
+    border-radius: 100%;
+    opacity: 0;
+
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background: #000;
+    position: relative;
+    overflow: hidden;
+}
+
+#page1 nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+}
+
+.navlink{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.logo img{
+    height: 50px;
+}
+
+.navlink p{
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    background: red;
+}
+
+
+#page1 .box {
+    height: 300px;
+    width: 300px;
+   position: absolute;
+}
+#page1 .box img{
+    height: 300px;
+    width: 500px;
+   position: absolute;
+}
+
+#page1 .heading{
+    position: absolute;
+    bottom: 30px;
+    padding: 0 1rem;
+    z-index: 99;
+}
+
+#page1 h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 8rem;
+}
+
+#page1 h1 span{
+    font-family: mizi;
+    color: #D60000;
+}
+
